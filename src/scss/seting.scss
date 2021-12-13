@@ -1,0 +1,43 @@
+body {
+  background-color: #fff;
+  font-family: "ProximaNova", sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  position: relative;
+  max-width: 1420px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+.form * {
+  outline: none;
+}
+
+.shadow {
+  display: none;
+
+  &_activ {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba($color: #000, $alpha: .6);
+    z-index: 200;
+  }
+}
